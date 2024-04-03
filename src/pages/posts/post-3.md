@@ -1,6 +1,8 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi tercera publicacion en el blog
 author: Abraham Borja
+pubDate: 2022-07-01
 description: "despues de aprender un poco de astro, no podia parar"
 image:
     url: "https://docs.astro.build/assets/arc.webp"

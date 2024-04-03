@@ -1,0 +1,21 @@
+---
+import Social from "./Social.astro"
+
+const plataform = "github"
+const username = "Aborja-dev"
+---
+
+<footer>
+    <p>Mas informacion sobre mis proyectos en <a href="#">Mi repo de github</a></p>
+    <Social platform="twitter" username="abraham borja" />
+    <Social platform="github" username="abraham borja" />
+    <Social platform="youtube" username="abraham borja" />
+</footer>
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
